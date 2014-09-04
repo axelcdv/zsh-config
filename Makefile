@@ -1,6 +1,6 @@
 TARGETS = $(HOME)/.zshrc $(HOME)/.oh-my-zsh
 SHELL = /bin/bash
-CWD = $(shell pwd)
+PWD = $(shell pwd)
 
 define check_file
 	@if [[ -e $1 && "$(OVERWRITE)" != "1" ]]; then \
