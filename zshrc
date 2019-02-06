@@ -81,3 +81,6 @@ cd . # to rvm reload
 
 # UTF-8 encoding for cocoapods
 export LANG=en_US.UTF-8
+
+#rbenv
+PATH=~/.rbenv/shims:$PATH
